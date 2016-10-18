@@ -1,24 +1,22 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 	<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
 		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-		x:Class="MacacosForms.View.HomePage">
+		x:Class="MacacosForms.View.HomePage" Title="{Binding Titulo}">
 		<ContentPage.Content>
 			<StackLayout Padding="20"  Orientation="Vertical">
-			<Label Text="{Binding Titulo}"   />
-				<ListView x:Name="lstMacacos" ItemsSource="{Binding Macacos}">
+
+				<ListView x:Name="lstMacacos" 
+					ItemsSource="{Binding Macacos}"
+					ItemSelected="lstMacacos_ItemSelected">
 					<ListView.ItemTemplate>
 						<DataTemplate>
-							<ViewCell>
-								<StackLayout Orientation="Vertical" Spacing="60">
-									<StackLayout Orientation="Horizontal">
-										<Image Source="{Binding Imagem}"  WidthRequest="25" HeightRequest="25" Aspect="Fill"/>
-
+							<ImageCell
+									Text="{Binding Apelido}"
+									Detail="{Binding Local}"
+									ImageSource="{Binding Imagem}"
+							        />
 								
-								<Label Text="{Binding Apelido}" HorizontalOptions="FillAndExpand"/>
-												
-								</StackLayout>
-								</StackLayout>
-							</ViewCell>
+					
 						</DataTemplate>
 					</ListView.ItemTemplate>
 				</ListView>

@@ -24,7 +24,7 @@ namespace MacacosForms
 
 			Macacos = new ObservableCollection<Macaco>();
 
-			Titulo = "Semana Digital Xamarin";
+			Titulo = "PUCC Campinas Xamarin Forms";
 
 			Macacos.Add(new Macaco
 			{

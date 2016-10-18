@@ -1,19 +1,12 @@
-﻿<Properties StartupItem="iOS/MacacosForms.iOS.csproj">
-  <MonoDevelop.Ide.Workbench ActiveDocument="MacacosForms/App.cs">
-    <Files>
-      <File FileName="MacacosForms/ViewModel/MacacoViewModel.cs" Line="1" Column="1" />
-      <File FileName="MacacosForms/Model/Macaco.cs" Line="1" Column="1" />
-      <File FileName="MacacosForms/View/HomePage.xaml" Line="17" Column="38" />
-      <File FileName="MacacosForms/App.cs" Line="11" Column="27" />
-      <File FileName="Droid/MainActivity.cs" Line="27" Column="3" />
-      <File FileName="iOS/AppDelegate.cs" Line="17" Column="19" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+﻿<Properties StartupConfiguration="{62A4BF3E-74E8-490F-B4A9-DF35C04DA0A9}|Default">
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/juniorporfirio/GitHub/Xamarin-Forms-Palestra-Semana-Integrada-PUCC/MacacosForms/MacacosForms/View/DetailsPage.xaml.cs" line="10" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.MacacosForms.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.024b02f114d410c9" />
-  <MonoDevelop.Ide.ItemProperties.MacacosForms.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.05BC2B81-6E94-4F05-80CD-829371A54289" />
+  <MonoDevelop.Ide.ItemProperties.MacacosForms.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Nexus 4 (KitKat)" />
+  <MonoDevelop.Ide.ItemProperties.MacacosForms.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.8999F070-ABD2-47D7-85B2-64B9A4E3315F" />
 </Properties>
